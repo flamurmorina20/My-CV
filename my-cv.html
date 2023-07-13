@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My CV</title>
+  </head>
+  <body>
+    <table width="700" align="center" border="5">
+      <tr>
+        <td width="150" align="center">
+          <img src="img.jpg" alt="Photo" height="250px" />
+        </td>
+        <td colspan="2">
+          <h2>Flamur Morina</h2>
+          <p>Web Developer</p>
+        </td>
+      </tr>
+
+      <tr align="center">
+        <td>
+          <a href="https://www.facebook.com/">Facebook</a>
+        </td>
+        <td>
+          <a href="https://www.instagram.com/">Instagram</a>
+        </td>
+        <td>
+          <a href="https://www.linkedin.com/in/flamur-morina-3979991bb/"
+            >LinkedIn</a
+          >
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="3">
+          <h2 align="center"><strong>Education</strong></h2>
+          <ul>
+            <li><b>Bachelor degree</b></li>
+            <p>Computer Science</p>
+          </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="3">
+          <h2 align="center"><strong>Work Experience</strong></h2>
+
+          <ul>
+            <li><b>Full Stack Developer</b></li>
+            <p>10/2020-01/2021</p>
+            <p>Prishtine</p>
+          </ul>
+          <ul>
+            <li><b>Web Developer</b></li>
+            <p>04/2022-03/2023</p>
+            <p>Gjilan</p>
+          </ul>
+          <ul>
+            <li><b>Web Developer</b></li>
+            <p>04/2023-present</p>
+            <p>Remote</p>
+          </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="3" align="center">
+          <strong><h2>Skills</h2></strong>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Javascript</li>
+            <li>PHP</li>
+            <li>Wordpress</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Figma</li>
+            <li>Photoshop</li>
+            <li>Canva</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>English</li>
+            <li>German</li>
+          </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="3"><h1>Contact Form!</h1></td>
+      </tr>
+      <tr>
+        <td colspan="3" align="center">
+          <form action="#">
+            <br />
+
+            <label for="name">Name</label>
+            <input
+              type="text"
+              placeholder="Name"
+              id="name"
+              minlength="3"
+              maxlength="15"
+              required
+            />
+            <br /><br />
+
+            <label for="surname">Surname</label>
+            <input
+              type="text"
+              placeholder="Surname"
+              id="surname"
+              minlength="3"
+              maxlength="15"
+              required
+            />
+            <br /><br />
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+            <br /><br />
+            <label for="tel">Phone</label>
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Your number"
+              pattern="[0-9]+"
+              min="8"
+              required
+            />
+            <br /><br />
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="male" required />
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="famale" required />
+            <label for="female">Female</label>
+
+            <br /><br />
+
+            <select name="ser" id="ser" required>
+              <option value="">Choose service you need</option>
+              <option value="ux/ui">ux/ui</option>
+              <option value="website">web & app</option>
+              <option value="design">graphic design</option>
+              <option value="marketing">marketing</option>
+            </select>
+
+            <br /><br />
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="5"
+              placeholder="Enter your message"
+            ></textarea>
+            <br /><br />
+            <button type="submit">Submit</button> <br /><br />
+          </form>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
